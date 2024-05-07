@@ -1,70 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Namaste travels</title>
+
+	<!-- Google Fonts: Raleway 400, Open Sans 400(i)/700(i) -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="wrapper">
+	<div class="wrapper">
 
 		<header class="header">
-			<div class="header__contact">
-				<a class="header__contact-email" href="mailto:penzion@uvody.cz">penzion@uvody.cz</a>
-				<span class="header__contact-phone">Tel. +420 724 941 974</span>
-			</div>
-
-			<div class="header__inner">
-				<div class="header__left">Namasté travels</div>
-
-					<div class="header__address">
-						<img class="header__stars" src="/images/3stars.svg" alt="3 hvězdičky">
-						Madridská 6, Praha 10
-					</div>
+			<div class="header__left">
+				<div class="header__logo">
+					<img class="header__logock" src="images/Logo Namaste travels.png" alt="logo Namaste travels">
+					<div class="header__titleck">Namasté<br>travels</div>
 				</div>
-
-				<nav class="menu">
-					<ul class="menu__list">
-						<li class="menu__item"><a href="/" class="menu__link">Úvod</a></li>
-						<li class="menu__item"><a href="/pokoje/" class="menu__link">Pokoje</a></li>
-						<li class="menu__item"><a href="/vybaveni/" class="menu__link">Vybavení</a></li>
-						<li class="menu__item"><a href="/galerie/" class="menu__link">Galerie</a></li>
-						<li class="menu__item"><a href="/kontakt/" class="menu__link">Kontakt</a></li>
-					</ul>
-				</nav>
+				<div class="header__contact">
+					<a class="header__contact-email"
+						href="mailto:namastetravels@namaste.cz">namastetravels@namaste.cz</a>
+					<span class="header__contact-phone">Tel. +420 724 941 974</span>
+				</div>
 			</div>
-
-			<div class="header__image"></div>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a class="button" id="button_offer" href="/nabidka-pobytu/" class="menu__link">Nabídka pobytů</a></li>
+					<li class="menu__item"><a class="button" href="/o-nas" class="menu__link">O nás</a></li>
+					<li class="menu__item"><a class="button" href="/kontakt/" class="menu__link">Kontakty</a></li>
+				</ul>
+			</nav>
 		</header>
 
 		<main class="main">
 
-
-
-			<!-- O penzionu -->
+			<!--O Namasté travels-->
 			<section class="about">
 				<div class="about__content">
-					<h1>O penzionu u vody</h1>
-
-					<p>Náš penzion se nechází na břehu nádherného jezera s epickým výhledem na okolní hory. Máme zde pro vás připravené jak levnější dvojlůžkové pokoje, tak romantická podkrovní apartmá nebo prostorné pokoje pro až 5 osob s&nbsp;výhledem na jezero. Každý pokoj lze v&nbsp;případě potřeby dovybavit jednou nebo dvěma přistýlkami.</p>
-
-					<p>Součástí penzionu je útulná jídelna a venkovní zahrádka, kde si můžete vychutnat speciality naší kuchyně nebo posedět večer u&nbsp;piva nebo vína. Pro aktivní vyžití nabízíme úschovnu kol a lyží, v&nbsp;suterénu je i dobře vybavená posilovna. Pro chvíle relaxace máte k&nbsp;dispozici naši saunu.</p>
+					<h1>Jógové retreaty v zahraničí</h1>
+					<h2>Namasté Travels: Tvoje brána k dobrodružství</h2>
+					<p>Vítejte v cestovní kanceláři Namasté Travels. Přinášíme Ti úžasné zážitky s partou skvělých
+						lidí během našich jógových pobytů v zahraničí. Jsme Tvůj průvodce na cestě k harmonii. Pomůžeme
+						Ti objevit nové perspektivy a rozvinout svou jógovou praxi v exotických destinacích po celém
+						světě.</p>
+					<img class="homepage" src="images/Uvodni foto.jpg" alt="uvodni fotka stojka na plazi">
 				</div>
 
-				<div class="about__side">
-					<h2>Hodnocení klientů</h2>
-					<div class="testimonial">
-						<div class="testimonial__bubble">
-							<p class="testimonial__score">95 %</p>
-							<p>Naprosto parádní místo s krásným výhledem na jezero a hory. Přátelský a&nbsp;ochotný personál nám zajistil nádhernou dovolenou.</p>
-						</div>
-						<div class="testimonial__name">
-							Jan a Alena Novákovi (srpen 2020)
-						</div>
+				<div class="about__retreats">
+					<h2>Nadcházející retreaty</h2>
+					<p>Malá ochutnávka kam se s námi můžete letos vydat</p>
+				</div>
+
+			<div class="retreatbox">
+			<div class="tenerife">
+			<h2>Fantastické Tenerife</h1>
+			<h3>Damien</h3>	
+			<p>poznejte s námi tento kouzelný ostrov</p>
+			</div>
+
+			<div class="portugalsko">
+				<h2>Okouzlující Portugalsko</h1>
+				<h3>Terka</h3>	
+				<p>s jógou až na samý konec Evropy</p>
+				</div>
+
+					<div class="albanie">
+					<h2>Zázračná Albánie</h1>
+					<h3>Janka</h3>	
+					<p>jóga a poznání neznámého Balkánu</p>
 					</div>
-				</div>
+
+</div>
 			</section>
+
+			<footer>
+				Namasté travels 2024
+			</footer>
 </body>
+
 </html>
