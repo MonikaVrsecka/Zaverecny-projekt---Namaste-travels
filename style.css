@@ -35,14 +35,14 @@ margin-right: 50px;}
   word-break: keep-all;
 }
 
-/*nefunguje?? už funguje --honzík*/
 /*#button_offer {background-color: #008080;}*/
 
 .menu__item:first-child a {background-color: #008080;}
 
 
 h1 {
-  color: blueviolet;
+  color: #48D1CC;
+  font-size: 35px;
 }
 
 .about__content{text-align: center;}
@@ -65,7 +65,7 @@ header {
 }
 
 .homepage {
-  max-width: 70%;
+  max-width: 80%;
   align-self: center;
 }
 
@@ -77,26 +77,46 @@ header {
 }
 
 .header__logo .header__logock {
-  width: 25px;
+  width: 35px;
   margin-right: 5px;
 }
 
 /* písmo Trade Winds*/
 .header__titleck {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
-.retreatbox{
-
+.retreaty img{width: 35px;
+  border-radius: 55%;
 }
 
-.tenerife .portugalsko .albanie {
+
+.tenerife{  
   border: 2px solid white;
   border-radius: 5px;
   box-shadow: -3px 0 5px grey;
-  margin-bottom: 15px; 
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 10px;}
+
+
+.portugalsko{  
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: -3px 0 5px grey;
+  margin-bottom: 10px;}
+
+.albanie{  
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: -3px 0 5px grey;
+  margin-bottom: 10px;}
+
+.container{
+
+
 }
+
+
+
+footer {text-align: center;}
 
 /*media screen od xx px menu display: row*/
