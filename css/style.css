@@ -149,13 +149,16 @@ h1 {
 }
 
 .header__logo .header__logock {
-  width: 35px;
+  width: 55px;
   margin-right: 5px;
 }
 
 /* písmo Trade Winds*/
 .header__titleck {
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: "Trade Winds", Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 23px;
 }
 
 .retreaty img{width: 35px;
@@ -201,7 +204,47 @@ h1 {
 
 
 footer {text-align: center;
-margin-top: 25px;}
+margin-top: 25px;
+background-color: #48D1CC;
+margin-left: 0;
+margin-right: 0;
+}
+
+input[type="submit"] {
+  background: #6FA4F8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+input[type="submit"]:hover {
+  background: #2976f8;
+  color: #EEEEEE;
+  cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  padding: 0.3em;
+}
+
+input[type="submit"] {
+  padding: 10px 25px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  width: 483px;
+  height: 90px;
+}
 
 /*media screen od xx px menu display: row*/
 @media screen and (min-width: 640px) {
