@@ -3,32 +3,37 @@ layout: moje-sablona1.njk
 title: Kontakty
 ---
 
-		<main class="main">
+<main class="main">
 
-            <h1>Napiš nám</h1>
-            <h2>Máš dotazy k našim pobytům? Neboj se zeptat na cokoliv přímo:</h2>
-		
-			<div class="header__contact">
-				<a class="header__contact-email"
-					href="mailto:namastetravels@namaste.cz">namastetravels@namaste.cz</a><br>
-				<span class="header__contact-phone">Tel. +420 724 941 974</span>
-			</div>
+	<h1>Napiš nám</h1>
+	<h2>Máš dotazy k našim pobytům? Neboj se zeptat na cokoliv přímo:</h2>
 
+	<div class="header__contact">
+		<a class="header__contact-email" href="mailto:namastetravels@namaste.cz">namastetravels@namaste.cz</a><br>
+		<span class="header__contact-phone">Tel. +420 724 941 974</span>
+	</div>
 
 
-
+	<div class="container2">
+		<div class="form">
 			<h1>Kontaktní formulář</h1>
 
 			<p>Nebo nás kontaktujte přes odeslání dotazu skrz formulář:</p>
-			
+
 			<form method="post" id="form-email">
 				<label>
 					Vaše emailová adresa<br />
-					<input type="email" name="email" required="required"/>
+					<input type="email" name="email" required="required" />
 				</label><br />
-			
+
 				<label>
 					<textarea name="zprava">Co máte na srdci</textarea>
 				</label><br />
 				<input type="submit" value="Odeslat" />
 			</form>
+		</div>
+
+		<div class="contact__photo">
+			<img class="contact" img src="/images/Kontakt1.jpg" alt="kontakt foto lidí">
+		</div>
+	</div>
