@@ -19,13 +19,19 @@ justify-items: center;
 .menu {
   margin-right: 0px;
   margin-top: 30px;
+  display:flex;
+  flex-direction: column;
 }
 
 .menu__list {
   list-style-type: none;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  /*gap: 22px;*/
+  gap: 22px;*/
+}
+
+.redirection {
+  text-decoration: none;
 }
 
 .button{
@@ -51,6 +57,7 @@ link*/
 .menu__checkbox {
   position:absolute;
   left: -9999px;
+  display: flex;
 }
 
 /* menu list*/
@@ -83,7 +90,6 @@ link*/
 
 .menu__link{
   margin: 10px;
-
 }
 
 .menu__toggler{
@@ -91,8 +97,8 @@ link*/
   border: 1px solid white;
   border-radius: 8px;
   background-color: #008080;
-  color:white;
   padding: 10px;
+  color:white;
   text-decoration: none;
   word-break:keep-all;
   margin:0;
@@ -136,10 +142,11 @@ h1 {
  /* vertical-align: middle;*/
 }
 
-.header__right{
+/*.header__right{
   display: flex;
-  /* justify-content: space-between;*/
-  }
+  /* justify-content: space-between;
+  }*/
+
 
 .homepage {
   max-width: 80%;
@@ -267,27 +274,39 @@ textarea {
 }
 
 .contact__photo img{
-  max-width:70%;
+  max-width: 400px;
 }
+
+
+@media screen and (max-width: 450px) 
+.contact__photo{
+  display:none;
+}
+
 /*media screen od xx px menu display: row*/
-@media screen and (min-width: 640px) {
-.menu__list {
+@media screen and (min-width: 500px) {
+  .menu__list {
+    display: flex;
     flex-direction: row;
     gap: 10px;
-  }
-}
+    }
 
-/*.menu__retreats{
-  flex-direction: row;
-  gap: 10px;
-}*/
+    .menu{
+      flex-direction: row;
+      }
+      }
+
+    .menu__checkbox{
+    display: flex;
+    flex-direction: row;
+    }
 
 
-@media screen and (min-width: 640px) {
+
+@media screen and (min-width: 500px) {
   .retreaty {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
     }
   }
-  
